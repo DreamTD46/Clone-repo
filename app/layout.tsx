@@ -19,6 +19,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/users">Users</Link>
             <span style={{ margin: '0 8px' }}>|</span>
             <Link href="/posts">Posts</Link>
+            <span style={{ margin: '0 8px' }}>|</span>
+            <Link href="/profile">Profile</Link>
           </nav>
         </header>
         <main style={{ padding: 16 }}>{children}</main>
